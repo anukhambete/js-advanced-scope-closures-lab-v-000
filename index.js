@@ -7,7 +7,7 @@ function produceDrivingRange(blocks) {
     if (dist <= blocks) {
 	return true;
     } else {
-	return `${range} blocks out of range.`;
+	return `${range} blocks out of range`;
     };
   };
 }
