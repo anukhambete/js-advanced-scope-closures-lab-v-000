@@ -5,7 +5,7 @@ function produceDrivingRange(blocks) {
 	dist = parseInt(b,10)-parseInt(a,10);
   range = Math.abs(blocks - dist);
     if (dist <= blocks) {
-	return true;
+	return `within range by ${range}`;
     } else {
 	return `${range} blocks out of range`;
     };
